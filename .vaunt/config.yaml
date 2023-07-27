@@ -1,0 +1,26 @@
+version: 0.0.1
+achievements:
+  - achievement:
+      name: Shooting Star
+      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/shooting_star.png
+      description: Awarded for starring our repository, make a wish!
+      triggers:
+        - trigger:
+            actor: author
+            action: star
+            condition: starred = true
+  - achievement:
+      name: Snake Charmer 
+      icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/new/main
+      description: Charming snakes is no easy feat! 
+      triggers:
+        - trigger:
+            actor: author
+            action: star
+            condition: starred = true
+            operator: "&"
+        - trigger:
+            actor: author
+            action: issue
+            condition: labels in ['enhancement']
+            operator: "|"
