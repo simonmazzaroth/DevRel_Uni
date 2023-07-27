@@ -18,7 +18,6 @@ achievements:
             actor: author
             action: issue
             condition: labels in ['Feedback']
-            operator: "|"
   - achievement:
       name: Podcast Participatant!
       icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/main/.vaunt/podcast.jpeg
@@ -26,9 +25,8 @@ achievements:
       triggers:
         - trigger:
             actor: author
-            action: issue
+            action: pull_request
             condition: labels in ['Podcast']
-            operator: "|"
   - achievement:
       name: Notetaker 
       icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/main/.vaunt/note taker.jpeg
@@ -36,6 +34,5 @@ achievements:
       triggers:
         - trigger:
             actor: author
-            action: issue
+            action: pull_request
             condition: labels in ['Notetaker']
-            operator: "|"
