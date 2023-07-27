@@ -29,7 +29,7 @@ achievements:
             condition: labels in ['podcast']
   - achievement:
       name: Notetaker 
-      icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/main/.vaunt/note taker.jpeg
+      icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/main/.vaunt/notetaker.jpeg
       description: Thank you for your sharing your note! 
       triggers:
         - trigger:
