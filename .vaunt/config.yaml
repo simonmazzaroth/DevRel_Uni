@@ -19,9 +19,9 @@ achievements:
             action: issue
             condition: labels in ['feedback']
   - achievement:
-      name: Podcast Participatant!
+      name: Podcast Participant!
       icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/main/.vaunt/podcast.jpeg
-      description: Thank you for your participating! 
+      description: Thank you for your participation! 
       triggers:
         - trigger:
             actor: author
