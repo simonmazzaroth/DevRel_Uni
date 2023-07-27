@@ -10,17 +10,32 @@ achievements:
             action: star
             condition: starred = true
   - achievement:
-      name: Snake Charmer 
-      icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/new/main
-      description: Charming snakes is no easy feat! 
+      name: Feedback
+      icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/main/.vaunt/feedback.jpeg
+      description: Thank you for your feedback
       triggers:
         - trigger:
             actor: author
-            action: star
-            condition: starred = true
-            operator: "&"
+            action: issue
+            condition: labels in ['Feedback']
+            operator: "|"
+  - achievement:
+      name: Podcast Participatant!
+      icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/main/.vaunt/podcast.jpeg
+      description: Thank you for your participating! 
+      triggers:
         - trigger:
             actor: author
             action: issue
-            condition: labels in ['enhancement']
+            condition: labels in ['Podcast']
+            operator: "|"
+  - achievement:
+      name: Notetaker 
+      icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/main/.vaunt/note taker.jpeg
+      description: Thank you for your sharing your note! 
+      triggers:
+        - trigger:
+            actor: author
+            action: issue
+            condition: labels in ['Notetaker']
             operator: "|"
