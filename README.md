@@ -14,8 +14,8 @@
 | Tqla Sunrise | <img src="https://raw.githubusercontent.com/VauntDev/tqla/main/.vaunt/tqla_sunrise.png" width="150" /> | a shining example of your contribution to tqla! | PR merged by reviewers. |
 
 
-[![Vaunt Community](https://api.vaunt.dev/v1/github/entities/brainboxdotcc/repositories/DPP/badges/community)](https://community.vaunt.dev/board/brainboxdotcc/repository/DPP)
+[![Vaunt Community](https://api.vaunt.dev/v1/github/entities/firecamp-dev/repositories/firecamp/badges/community)](https://community.vaunt.dev/board/firecamp-dev/repository/firecamp)
 
 <p>
-  <img src="https://api.vaunt.dev/v1/github/entities/brainboxdotcc/repositories/DPP/contributors?format=svg&limit=15" width="350" />
+  <img src="https://api.vaunt.dev/v1/github/entities/firecamp-dev/repositories/firecamp/contributors?format=svg&limit=15" width="350" />
 </p>
