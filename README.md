@@ -7,11 +7,12 @@
 
 ### Available Awards
 
-| Name | Icon | Description | Trigger |
-| ---- | ---- | ----------- | ------- |
-| Mas Tqla! | <img src="https://raw.githubusercontent.com/VauntDev/tqla/main/.vaunt/mas_tqla.png" width="150" /> | uno mas, dba..., one more, mas tqla! | Star [Tqla](https://github.com/VauntDev/tqla) |
-| Tqla Worm | <img src="https://raw.githubusercontent.com/VauntDev/tqla/main/.vaunt/tqla_worm.png" width="150" /> | not all bugs are bad! | Issue labels in 'bug' and marked as completed|
-| Tqla Sunrise | <img src="https://raw.githubusercontent.com/VauntDev/tqla/main/.vaunt/tqla_sunrise.png" width="150" /> | a shining example of your contribution to tqla! | PR merged by reviewers. |
+| Name | Icon | Description |
+| ---- | ---- | ----------- |
+| Pull Request Hero | <img src="https://raw.githubusercontent.com/akshitagupta15june/Moksh/main/.vaunt/ach1.jpeg" width="150" /> | uno mas, dba..., one more, mas tqla! |
+| Every Bit Counts | <img src="https://raw.githubusercontent.com/akshitagupta15june/Moksh/main/.vaunt/ach2.jpeg" width="150" /> | not all bugs are bad! |
+| Issue Hunter | <img src="https://raw.githubusercontent.com/akshitagupta15june/Moksh/main/.vaunt/ach3.jpeg" width="150" /> | a shining example of your contribution to tqla! |
+| Community Guardian | <img src="https://raw.githubusercontent.com/akshitagupta15june/Moksh/main/.vaunt/ach4.jpeg" width="150" /> |  | 
 
 
 [![Vaunt Community](https://api.vaunt.dev/v1/github/entities/firecamp-dev/repositories/firecamp/badges/community)](https://community.vaunt.dev/board/firecamp-dev/repository/firecamp)
