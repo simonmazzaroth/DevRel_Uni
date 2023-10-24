@@ -2,10 +2,20 @@ version: 0.0.1
 achievements:
   - achievement:
       name: Bug closer
-      icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/bug_closer.png
+      icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/bug_closer.jpeg
       description: Only closers get coffee!
       triggers:
         - trigger:
             actor: author
             action: issue
             condition: closed = true
+achievements:
+  - achievement:
+      name: AI engine integration
+      icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/AI_engine.jpeg
+      description: Awarded for starring our repository, make a wish!
+      triggers:
+        - trigger:
+            actor: author
+            action: star
+            condition: starred = true
