@@ -1,38 +1,11 @@
 version: 0.0.1
 achievements:
   - achievement:
-      name: Shooting Star
-      icon: https://raw.githubusercontent.com/vauntdev/example/main/.vaunt/shooting_star.png
-      description: Awarded for starring our repository, make a wish!
-      triggers:
-        - trigger:
-            actor: author
-            action: star
-            condition: starred = true
-  - achievement:
-      name: Feedback
-      icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/main/.vaunt/feedback.jpeg
-      description: Thank you for your feedback
+      name: Bug closer
+      icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/bug_closer.png
+      description: Only closers get coffee!
       triggers:
         - trigger:
             actor: author
             action: issue
-            condition: labels in ['feedback']
-  - achievement:
-      name: Podcast Participant!
-      icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/main/.vaunt/podcast.jpeg
-      description: Thank you for your participation! 
-      triggers:
-        - trigger:
-            actor: author
-            action: pull_request
-            condition: labels in ['podcast']
-  - achievement:
-      name: Notetaker 
-      icon: https://raw.githubusercontent.com/simonmazzaroth/DevRel_Uni/main/.vaunt/notetaker.jpeg
-      description: Thank you for your sharing your note! 
-      triggers:
-        - trigger:
-            actor: author
-            action: pull_request
-            condition: labels in ['notetaker']
+            condition: closed = true
