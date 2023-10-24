@@ -1,9 +1,9 @@
 
 
-[![Vaunt Community](https://api.vaunt.dev/v1/github/entities/answerdev/repositories/answer/badges/community)](https://community.vaunt.dev/board/answerdev/repository/answer)
+[![Vaunt Community](https://api.vaunt.dev/v1/github/entities/mindsdb/repositories/mindsdb/badges/community)](https://community.vaunt.dev/board/mindsdb/repository/mindsdb)
 
 <p>
-  <img src="https://api.vaunt.dev/v1/github/entities/answerdev/repositories/answer/contributors?format=svg&limit=15" width="350" />
+  <img src="https://api.vaunt.dev/v1/github/entities/mindsdb/repositories/mindsdb/contributors?format=svg&limit=15" width="350" />
 </p>
 
 <p>
