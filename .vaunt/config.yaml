@@ -1,21 +1,47 @@
 version: 0.0.1
 achievements:
   - achievement:
-      name: Bug closer
-      icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/bug_closer.jpeg
-      description: Only closers get coffee!
+      name: Bug Hunter
+      icon: icon_url
+      description: Thank you for finding a bug!   
       triggers:
         - trigger:
             actor: author
             action: issue
-            condition: closed = true
-achievements:
+            condition: labels in ['bug']
   - achievement:
-      name: AI engine integration
-      icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/AI_engine.jpeg
-      description: Awarded for starring our repository, make a wish!
+      name: Exterminator
+      icon: icon_url
+      description: Thank you for helping make mindsdb a bug free environment!   
+      triggers:
+        - trigger:
+            actor: resolved_by
+            action: issue
+            condition: labels in ['bug'] & reason = COMPLETED
+  - achievement:
+      name: App Integrator
+      icon: icon_url
+      description: Thank you for making mindsdb more powerful!   
+      triggers:
+        - trigger:
+            actor: resolved_by
+            action: issue
+            condition: labels in ['app-integration'] & reason = COMPLETED
+  - achievement:
+      name: AI Engine Expert
+      icon: icon_url
+      description: Thank you for improving our AI Engine  
+      triggers:
+        - trigger:
+            actor: resolved_by
+            action: issue
+            condition: labels in ['integration'] & reason = COMPLETED
+  - achievement:
+      name: Doc 
+      icon: icon_url
+      description: Thank you for making mindsdb documentation better!   
       triggers:
         - trigger:
             actor: author
-            action: star
-            condition: starred = true
+            action: pull_request
+            condition: merged = true & files in ['README.md', 'readme.md']
