@@ -2,7 +2,7 @@ version: 0.0.1
 achievements:
   - achievement:
       name: Bug Hunter
-      icon: icon_url
+      icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/shooting_star.png
       description: Thank you for finding a bug!   
       triggers:
         - trigger:
@@ -11,7 +11,7 @@ achievements:
             condition: labels in ['bug']
   - achievement:
       name: Exterminator
-      icon: icon_url
+      icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/shooting_star.png
       description: Thank you for helping make MindsDB a bug free environment!   
       triggers:
         - trigger:
@@ -20,7 +20,7 @@ achievements:
             condition: labels in ['bug'] & reason = COMPLETED
   - achievement:
       name: App Integrator
-      icon: icon_url
+      icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/shooting_star.png
       description: Thank you for making MindsDB more powerful!   
       triggers:
         - trigger:
@@ -29,7 +29,7 @@ achievements:
             condition: labels in ['app-integration'] & reason = COMPLETED
   - achievement:
       name: AI Engine Expert
-      icon: icon_url
+      icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/shooting_star.png
       description: Thank you for improving our AI Engine  
       triggers:
         - trigger:
@@ -38,7 +38,7 @@ achievements:
             condition: labels in ['integration'] & reason = COMPLETED
   - achievement:
       name: Doc 
-      icon: icon_url
+      icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/shooting_star.png
       description: Thank you for making MindsDB documentation better!   
       triggers:
         - trigger:
