@@ -12,7 +12,7 @@ achievements:
   - achievement:
       name: Exterminator
       icon: icon_url
-      description: Thank you for helping make mindsdb a bug free environment!   
+      description: Thank you for helping make MindsDB a bug free environment!   
       triggers:
         - trigger:
             actor: resolved_by
@@ -21,7 +21,7 @@ achievements:
   - achievement:
       name: App Integrator
       icon: icon_url
-      description: Thank you for making mindsdb more powerful!   
+      description: Thank you for making MindsDB more powerful!   
       triggers:
         - trigger:
             actor: resolved_by
@@ -39,7 +39,7 @@ achievements:
   - achievement:
       name: Doc 
       icon: icon_url
-      description: Thank you for making mindsdb documentation better!   
+      description: Thank you for making MindsDB documentation better!   
       triggers:
         - trigger:
             actor: author
