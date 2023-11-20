@@ -12,7 +12,7 @@ achievements:
   - achievement:
       name: Exterminator
       icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/Exterminator.jpeg
-      description: Thank you for helping make MindsDB a bug free environment!   
+      description: Thank you for helping make Vaunt a bug free environment!   
       triggers:
         - trigger:
             actor: resolved_by
@@ -21,7 +21,7 @@ achievements:
   - achievement:
       name: App Integrator
       icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/App_Integrator.jpeg
-      description: Thank you for making MindsDB more powerful!   
+      description: Thank you for making Vaunt more powerful!   
       triggers:
         - trigger:
             actor: resolved_by
@@ -39,7 +39,7 @@ achievements:
   - achievement:
       name: Doc 
       icon: https://raw.githubusercontent.com/simonmazzaroth/example/main/.vaunt/Doc.jpeg
-      description: Thank you for making MindsDB documentation better!   
+      description: Thank you for making Vaunt documentation better!   
       triggers:
         - trigger:
             actor: author
