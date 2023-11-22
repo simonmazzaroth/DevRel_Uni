@@ -1,9 +1,9 @@
 
 
-[![Vaunt Community](https://api.vaunt.dev/v1/github/entities/mindsdb/repositories/mindsdb/badges/community)](https://community.vaunt.dev/board/mindsdb/repository/mindsdb)
+[![Vaunt Community](https://api.vaunt.dev/v1/github/entities/firecamp-dev/repositories/firecamp/badges/community)](https://community.vaunt.dev/board/firecamp-dev/repository/firecamp)
 
 <p>
-  <img src="https://api.vaunt.dev/v1/github/entities/mindsdb/repositories/mindsdb/contributors?format=svg&limit=30" width="350" />
+  <img src="https://api.vaunt.dev/v1/github/entities/firecamp-dev/repositories/firecamp/contributors?format=svg&limit=30" width="350" />
 </p>
 
 <p>
