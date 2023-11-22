@@ -7,7 +7,7 @@
 </p>
 
 <p>
-  <img decoding="async" loading="lazy" src="https://api.vaunt.dev/v1/github/entities/jeff1010322/achievements?format=svg&limit=20" width="350" />
+  <img decoding="async" loading="lazy" src="https://api.vaunt.dev/v1/github/entities/Vidip-Ghosh/achievements?format=svg&limit=20" width="350" />
 </p>
 
 <p>
