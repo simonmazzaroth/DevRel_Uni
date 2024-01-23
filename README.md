@@ -2,6 +2,8 @@
 
 [![Vaunt Community](https://api.vaunt.dev/v1/github/entities/firecamp-dev/repositories/firecamp/badges/community)](https://community.vaunt.dev/board/firecamp-dev/repository/firecamp)
 
+[![VauntCommunity](https://api.vaunt.dev/v1/github/entities/jeff1010322/badges/community)](https://community.vaunt.dev/board/jeff1010322)
+
 <p>
   <img src="https://api.vaunt.dev/v1/github/entities/firecamp-dev/repositories/firecamp/contributors?format=svg&limit=30" width="350" />
 </p>
